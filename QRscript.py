@@ -1,4 +1,5 @@
 from qrcode import *
+
 qr = QRCode(
     version=1,
     error_correction=constants.ERROR_CORRECT_L,
